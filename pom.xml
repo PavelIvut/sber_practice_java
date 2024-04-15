@@ -11,5 +11,6 @@
 
   <modules>
     <module>Generics</module>
+    <module>Exceptions</module>
   </modules>
 </project>
