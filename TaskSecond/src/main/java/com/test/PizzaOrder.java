@@ -13,7 +13,6 @@ public class PizzaOrder {
         this.size = size;
         this.sauce = sauce;
         this.address = address;
-        this.orderAccepted = false;
     }
 
     public void order() {
@@ -76,9 +75,9 @@ public class PizzaOrder {
 
     @Override
     public String toString() {
-        return ("name: " + this.name + ", size: " + this.size + ", sauce: " + this.sauce + ", address: " +
-                this.address  + ", orderAccepted: " + this.orderAccepted +
-                '}');
+        return "name: " + this.name + ", size: " + this.size + ", sauce: " + this.sauce + ", address: " +
+                this.address + ", orderAccepted: " + this.orderAccepted +
+                '}';
     }
 
     public enum Size {

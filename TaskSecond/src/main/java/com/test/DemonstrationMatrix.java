@@ -1,6 +1,6 @@
 package com.test;
 
-public class Demonstration_Matrix {
+public class DemonstrationMatrix {
     public static void main(String[] args) {
         Matrix m1 = new Matrix(2, 2);
         m1.setValue(0, 0, 1);

@@ -1,6 +1,6 @@
 package com.test;
 
-public class Demonstration_Book {
+public class DemonstrationBook {
     public static void main(String[] args) {
             Author author = new Author("Сергей Свердлов", "Male", "sergeys@example.com");
             Book book = new Book("Java Programming", author, 2022);

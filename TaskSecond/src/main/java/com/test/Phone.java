@@ -1,4 +1,5 @@
 package com.test;
+
 public class Phone {
     private String number;
     private String model;
@@ -27,7 +28,7 @@ public class Phone {
     }
 
     public void receiveCall(String Name, String Number) {
-        System.out.printf("Звонит: ", Name, Number);
+        System.out.print("Звонит: " + Name + Number);
     }
 
     @Override

@@ -1,6 +1,6 @@
 package com.test;
 
-public class Demonstration_Circle {
+public class DemonstrationCircle {
     public static void main(String[] args) {
         Circle circle1 = new Circle(5.0, "red");
         Circle circle2 = new Circle(3.0, "blue");

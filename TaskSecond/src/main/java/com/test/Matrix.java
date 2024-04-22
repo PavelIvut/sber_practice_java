@@ -33,9 +33,9 @@ public class Matrix {
     public static Matrix addition(Matrix m1, Matrix m2){
         Matrix res = new Matrix(m1.getRows(), m2.getColumns());
 
-        for (int i = 0; i < m1.getRows(); i++) {
-            for (int j = 0; j < m1.getColumns(); j++) {
-                res.setValue(i, j,m1.getValue(i, j) + m2.getValue(i,j));
+        for (int rows = 0; rows < m1.getRows(); rows++) {
+            for (int columns = 0; columns < m1.getColumns(); columns++) {
+                res.setValue(rows, columns,m1.getValue(rows, columns) + m2.getValue(rows, columns));
             }
         }
         return res;
