@@ -12,5 +12,6 @@
   <modules>
     <module>Generics</module>
       <module>lambdas</module>
+      <module>streams</module>
   </modules>
 </project>
