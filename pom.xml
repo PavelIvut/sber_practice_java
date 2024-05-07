@@ -13,5 +13,6 @@
     <module>Generics</module>
       <module>lambdas</module>
       <module>streams</module>
+      <module>annotations</module>
   </modules>
 </project>
