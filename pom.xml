@@ -11,7 +11,13 @@
 
   <modules>
     <module>Generics</module>
+<<<<lambdas
       <module>lambdas</module>
+<<<<<< streams
       <module>streams</module>
+====
+    <module>Exceptions</module>
+>>>> main
+>>>>>> main
   </modules>
 </project>
