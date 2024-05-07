@@ -11,6 +11,9 @@
 
   <modules>
     <module>Generics</module>
+<<<<lambdas
+      <module>lambdas</module>
     <module>Exceptions</module>
+>>>> main
   </modules>
 </project>
