@@ -15,5 +15,6 @@
       <module>streams</module>
       <module>annotations</module>
       <module>annotation_reflection_io</module>
+      <module>multithreading</module>
   </modules>
 </project>
