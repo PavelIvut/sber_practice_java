@@ -11,17 +11,9 @@
 
   <modules>
     <module>Generics</module>
-<<<<lambdas
       <module>lambdas</module>
-<<<<<< streams
       <module>streams</module>
-<<<<<< annotations
       <module>annotations</module>
-=======
-====
-    <module>Exceptions</module>
->>>> main
->>>>> main
->>>>>> main
+      <module>annotation_reflection_io</module>
   </modules>
 </project>
